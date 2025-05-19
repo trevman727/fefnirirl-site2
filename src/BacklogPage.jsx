@@ -169,10 +169,11 @@ export default function App() {
               <img src={Logo} alt="Logo" className="w-40 h-40 mr-6 drop-shadow-[0_0_30px_#facc15]" />
             </Link>
             <div>
-              <h1 className="text-4xl font-bold text-white drop-shadow-[0_0_14px_#8b5cf6] mb-2">The Backlog</h1>
+              <h1 className="text-4xl font-bold text-white drop-shadow-[0_0_14px_#8b5cf6] mb-2">The Eternal Backlog</h1>
               <nav className="flex space-x-6 text-white text-lg font-semibold">
   <Link to="/" className="hover:text-indigo-300 transition-all drop-shadow-[0_0_8px_#8b5cf6]">Home</Link>
   <Link to="/completed" className="hover:text-indigo-300 transition-all drop-shadow-[0_0_8px_#8b5cf6]">Theater</Link>
+  <Link to="/library" className="text-white transition-all drop-shadow-[0_0_8px_#8b5cf6] hover:text-indigo-300">Library</Link>
   <Link to="/backlog" className="hover:text-indigo-300 transition-all drop-shadow-[0_0_8px_#8b5cf6]">Backlog</Link>
   <Link to="/faq" className="hover:text-indigo-300 transition-all drop-shadow-[0_0_8px_#8b5cf6]">FAQ</Link>
 </nav>

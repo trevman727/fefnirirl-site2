@@ -38,10 +38,11 @@ export default function HomePage() {
             <img src={Logo} alt="Logo" className="w-40 h-40 mr-6 drop-shadow-[0_0_30px_#facc15]" />
           </Link>
           <div>
-            <h1 className="text-4xl font-bold text-white drop-shadow-[0_0_14px_#8b5cf6] mb-2 drop-shadow-[0_0_8px_#8b5cf6]">The Incredible Gaming Cinema</h1>
+            <h1 className="text-4xl font-bold text-white drop-shadow-[0_0_14px_#8b5cf6] mb-2 drop-shadow-[0_0_8px_#8b5cf6]">The Man, the Myth, the Gamer</h1>
             <nav className="flex space-x-6 text-white text-lg font-semibold">
               <Link to="/" className="text-white transition-all drop-shadow-[0_0_8px_#8b5cf6] hover:text-indigo-300">Home</Link>
               <Link to="/completed" className="text-white transition-all drop-shadow-[0_0_8px_#8b5cf6] hover:text-indigo-300">Theater</Link>
+              <Link to="/library" className="text-white transition-all drop-shadow-[0_0_8px_#8b5cf6] hover:text-indigo-300">Library</Link>
               <Link to="/backlog" className="text-white transition-all drop-shadow-[0_0_8px_#8b5cf6] hover:text-indigo-300">Backlog</Link>
               <Link to="/faq" className="text-white transition-all drop-shadow-[0_0_8px_#8b5cf6] hover:text-indigo-300">FAQ</Link>
             </nav>
@@ -49,7 +50,7 @@ export default function HomePage() {
         </div>
 
         <div className="mt-6 text-center">
-          <h2 className="text-3xl font-bold drop-shadow-[0_0_10px_rgba(139,92,246,0.75)] mb-8">Now Playing</h2>
+          <h2 className="text-3xl font-bold drop-shadow-[0_0_10px_rgba(139,92,246,0.75)] mb-8">What's New?</h2>
           <div className="grid grid-cols-1 gap-8 items-center justify-items-center">
             {videos.map((video, index) => {
               const vid = video.snippet.resourceId.videoId;
