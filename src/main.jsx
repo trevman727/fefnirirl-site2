@@ -1,10 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import BacklogPage from './BacklogPage.jsx';
+import CompletedPage from './CompletedPage.jsx';
+import Home from './HomePage.jsx';
 import './index.css';
-import App from './App.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/completed" element={<CompletedPage />} />
+        <Route path="/backlog" element={<BacklogPage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
