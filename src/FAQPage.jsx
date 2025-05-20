@@ -40,7 +40,7 @@ export default function FAQPage() {
               <p className="mt-1 text-white">Because I'm not the star — the games are. I'm simply the director, providing you with a stream-lined cinematic experience, free from distractions.</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-indigo-200 drop-shadow-[0_0_2px_#8b5cf6]">🎬 Can I use any of your footage for things like reviews or video essays?</h3>
+              <h3 className="text-xl font-semibold text-indigo-200 drop-shadow-[0_0_2px_#8b5cf6]">🎬 Can I use your footage for things like reviews or video essays?</h3>
               <p className="mt-1 text-white">Absolutely! I'm more than happy to provide that for people. All I ask is that it's not a re-upload in its entirety and that you give me a small credit in the video description.</p>
             </div>
             <div>
